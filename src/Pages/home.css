@@ -1,0 +1,10 @@
+body{
+    background-image: url(../asserts/images/bg_body.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+h1{
+    height:100px;
+}
+
