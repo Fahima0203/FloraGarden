@@ -1,11 +1,11 @@
 // import React, { Component } from 'react';
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-// import Form from 'react-bootstrap/Form';
+import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import Login from './Login';
 
 function Nbar() {
   return (
@@ -17,6 +17,7 @@ function Nbar() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/cards">Cards</Nav.Link>
+            <Nav.Link href="/Login">Login</Nav.Link>
             <NavDropdown title="Contact" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -29,7 +30,7 @@ function Nbar() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          {/* <form className="d-flex" action="https://www.google.com/search">
+          <form className="d-flex" action="https://www.google.com/search">
             <Form.Control
               type="search"
               name="q"
@@ -39,7 +40,7 @@ function Nbar() {
               aria-label="Search"
             />
             <Button variant="outline-success">Search</Button>
-          </form> */}
+          </form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
